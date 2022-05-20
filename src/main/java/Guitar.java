@@ -7,6 +7,8 @@ public class Guitar extends Instruments{
         super(sound, material, sellingPrice, buyingPrice);
         this.strings = strings;
         this.frets = frets;
+//        this.buyingPrice = buyingPrice;
+//        this.sellingPrice = sellingPrice;
     }
 
     public int getStrings() {
@@ -17,13 +19,11 @@ public class Guitar extends Instruments{
         return this.frets;
     }
 
-
     public String sound(Instruments sound) {
         return "Swish Swooosh";
     }
 
-
-    public int markupPrice(Instruments sellingPrice, int buyingPrice) {
+    public int markUpPrice() {
         return this.sellingPrice - this.buyingPrice;
     }
 

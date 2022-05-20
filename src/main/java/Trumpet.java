@@ -16,7 +16,7 @@ public class Trumpet extends Instruments {
         return "Buuup";
     }
 
-    public int markupPrice(Instruments sellingPrice, int buyingPrice) {
+    public int markUpPrice() {
         return this.sellingPrice - this.buyingPrice;
     }
 }

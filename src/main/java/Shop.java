@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Shop implements ISell{
+public class Shop {
 
     private String name;
     private ArrayList<ISell> stock;
@@ -32,8 +32,4 @@ public class Shop implements ISell{
         this.stock.remove(instrument);
     }
 
-    @Override
-    public int markupPrice(Instruments sellingPrice, int buyingPrice) {
-        return 0;
-    }
 }

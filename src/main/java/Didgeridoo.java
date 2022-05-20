@@ -5,6 +5,8 @@ public class Didgeridoo extends Instruments{
     public Didgeridoo(String sound, String material, int sellingPrice, int buyingPrice, String thickness) {
         super(sound, material, sellingPrice, buyingPrice);
         this.thickness = thickness;
+        this.buyingPrice = buyingPrice;
+        this.sellingPrice = sellingPrice;
     }
 
     public String getThickness() {
@@ -15,7 +17,8 @@ public class Didgeridoo extends Instruments{
         return "Brooooooomrrrrrm";
     }
 
-    public int markupPrice(Instruments sellingPrice, int buyingPrice) {
+    public int markUpPrice() {
         return this.sellingPrice - this.buyingPrice;
     }
+
 }

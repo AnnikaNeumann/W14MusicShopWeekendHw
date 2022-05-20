@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9caceb16-4068-4676-bc0b-a05d87ff8d07" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ShopTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Didgeridoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Didgeridoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Guitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Guitar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ISell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ISell.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Trumpet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Trumpet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DidgeridooTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DidgeridooTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GuitarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GuitarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TrumpetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrumpetTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +48,48 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="DidgeridooTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in W13MusicShopWeekendHw">
+    <configuration name="All in W13MusicShopWeekendHw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="W13MusicShopWeekendHw" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DidgeridooTest" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuitarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="W13MusicShopWeekendHw" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GuitarTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopTest.canBuyInstrument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="W13MusicShopWeekendHw" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShopTest" />
+      <option name="METHOD_NAME" value="canBuyInstrument" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopTest.canSellInstrument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="W13MusicShopWeekendHw" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShopTest" />
+      <option name="METHOD_NAME" value="canSellInstrument" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrumpetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="W13MusicShopWeekendHw" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TrumpetTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -58,7 +97,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DidgeridooTest" />
+        <item itemvalue="JUnit.All in W13MusicShopWeekendHw" />
+        <item itemvalue="JUnit.GuitarTest" />
+        <item itemvalue="JUnit.TrumpetTest" />
+        <item itemvalue="JUnit.ShopTest.canBuyInstrument" />
+        <item itemvalue="JUnit.ShopTest.canSellInstrument" />
       </list>
     </recent_temporary>
   </component>

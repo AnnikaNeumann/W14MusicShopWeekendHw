@@ -5,6 +5,8 @@ public class Piano extends Instruments{
     public Piano(String sound, String material, int sellingPrice, int buyingPrice, String type) {
         super(sound, material, sellingPrice, buyingPrice);
         this.type = type;
+        this.buyingPrice = buyingPrice;
+        this.sellingPrice = sellingPrice;
     }
 
     public String getType() {
@@ -15,7 +17,7 @@ public class Piano extends Instruments{
         return "KlingKlang";
     }
 
-    public int markupPrice(Instruments sellingPrice, int buyingPrice) {
+    public int markUpPrice() {
         return this.sellingPrice - this.buyingPrice;
     }
 }
