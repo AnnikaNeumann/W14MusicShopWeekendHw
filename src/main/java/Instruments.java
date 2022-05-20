@@ -25,6 +25,8 @@ public abstract class Instruments implements IPlay, ISell{
         return sellingPrice;
     }
 
+
+
     public int getBuyingPrice() {
         return buyingPrice;
     }

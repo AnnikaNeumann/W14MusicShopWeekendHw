@@ -1,13 +1,13 @@
 public class Didgeridoo extends Instruments{
 
-    private int thickness;
+    private String thickness;
 
-    public Didgeridoo(String sound, String material, int sellingPrice, int buyingPrice,int thickness) {
+    public Didgeridoo(String sound, String material, int sellingPrice, int buyingPrice, String thickness) {
         super(sound, material, sellingPrice, buyingPrice);
         this.thickness = thickness;
     }
 
-    public int getThickness() {
+    public String getThickness() {
         return this.thickness;
     }
 

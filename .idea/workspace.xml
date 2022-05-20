@@ -5,24 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9caceb16-4068-4676-bc0b-a05d87ff8d07" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Didgeridoo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Guitar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IPlay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ISell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Instruments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Piano.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Trumpet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DidgeridooTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GuitarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InstrumentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PianoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TrumpetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ShopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Didgeridoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Didgeridoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ISell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ISell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DidgeridooTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DidgeridooTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +46,22 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="DidgeridooTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="W13MusicShopWeekendHw" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DidgeridooTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DidgeridooTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
